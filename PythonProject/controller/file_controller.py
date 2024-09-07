@@ -2,6 +2,8 @@ from PythonProject.model.matrix import MatrixModel
 from PythonProject.model.operation_model import OperationsModel
 
 
+# Created by Pedro Augusto on 07/09/24.
+
 class FileController:
     @staticmethod
     def read_file(file: str):

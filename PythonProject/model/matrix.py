@@ -1,12 +1,14 @@
 from PythonProject.model.operation_model import OperationsModel
 
 
+# Created by Pedro Augusto on 07/09/24.
+
 class MatrixModel(list):
     def __init__(self, n: int):
         super().__init__()
         self.n = n
         self.__make_matrix__()
-    
+
     def __make_matrix__(self):
         column = []
         for i in range(0, self.n):
@@ -44,7 +46,6 @@ class MatrixModel(list):
             column.append(item)
         for i, item in enumerate(column):
             self[j][i] += item
-
 
     def print(self):
         print("Matriz:")
