@@ -5,7 +5,7 @@
 typedef struct{
     int n;
     int *column;
-    int operation[3];
+    int operation[4];
 }File;
 
 File *initFile(long size) {
@@ -43,6 +43,10 @@ int *convertCharIntoIntArray(char *line, long n) {
         int_arr[index++] = i;
     }
     return int_arr;
+}
+
+void convertStrToOperations(char *line){
+
 }
 
 
