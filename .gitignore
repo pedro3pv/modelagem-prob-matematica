@@ -1,8 +1,3 @@
 
 /.idea
-/cmake-build-debug
-/build
-/main.dSYM
-/CMakeFiles
-main
-/.vscode
+/PythonProject/controller/__pycache__
