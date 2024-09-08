@@ -6,3 +6,4 @@
 /build
 main
 /.vscode
+/PythonProject/model/__pycache__

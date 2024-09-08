@@ -1,4 +1,4 @@
-from PythonProject.model.operation_model import OperationsModel
+from model.operation_model import OperationsModel
 
 
 # Created by Pedro Augusto on 07/09/24.
