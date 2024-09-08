@@ -1,3 +1,8 @@
 
 /.idea
 /PythonProject/controller/__pycache__
+/CMakeFiles
+/cmake-build-debug
+/build
+main
+/.vscode
